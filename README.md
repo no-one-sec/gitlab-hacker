@@ -31,10 +31,7 @@ git clone https://github.com/CC11001100/gitlab-api-user-enum-exploit.git
 Linux:
 
 ```bash
-SET CGO_ENABLED=0
-SET GOOS=linux
-SET GOARCH=amd64
-go build -o gitlab-api-user-enum-exploit main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o gitlab-api-user-enum-exploit main.go
 ```
 
 Windows:
